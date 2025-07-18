@@ -32,8 +32,9 @@ public enum Endpoint {
 //            ChangeNameRequest.class,
 //            ChangeNameResponse.class
 //    ),
-
+//      TODO - этот эндпоинт копия твоего, но с другим названием
     UPDATE_CUSTOMER_PROFILE("/customer/profile", ChangeNameRequest.class, ChangeNameResponse.class),
+//    TODO - это новый эндпоинт
     GET_CUSTOMER_PROFILE("/customer/profile", BaseModel.class, BaseUserResponse.class),
 
     TRANSFER(

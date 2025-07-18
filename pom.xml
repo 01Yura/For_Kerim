@@ -51,7 +51,7 @@
 <!--            <version>RELEASE</version>-->
 <!--            <scope>test</scope>-->
 <!--        </dependency>-->
-<!--        TODO - у меня не запускались тесты по кнопке у методов, только по кнопке у класса. Заработало при смене версии JUnit-->
+<!--        TODO - у меня не запускались тесты по кнопке расположенной у методов, только по кнопке у класса. Заработало при смене версии JUnit-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
